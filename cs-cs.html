@@ -21,10 +21,176 @@
 	<!-- Bootstrap JS Requirements -->
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-	
-	<!-- Theme CSS -->  	
-	<link id="theme-style" rel="stylesheet" href="assets/css/style.css">
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>	
+	<style>
+		body {
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+			color: #4f4f4f
+		}
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			color: #292929;
+			font-weight: bold
+		}
+
+		a.theme-link {
+			color: #292929;
+			text-decoration: underline;
+			-webkit-text-decoration-color: rgba(41, 41, 41, 0.3);
+			text-decoration-color: rgba(41, 41, 41, 0.3)
+		}
+
+		a.theme-link:hover {
+			color: #54B689;
+			-webkit-text-decoration-color: rgba(84, 182, 137, 0.8);
+			text-decoration-color: rgba(84, 182, 137, 0.8)
+		}
+
+		.btn {
+			font-weight: bold;
+			padding: .375rem 1rem;
+			height: 2.5rem;
+			font-size: 1rem
+		}
+
+		.btn:focus,
+		.btn.focus {
+			box-shadow: none !important
+		}
+
+		.btn-primary {
+			color: #fff
+		}
+
+		.demo-btn-on-bg {
+			background: rgba(0, 0, 0, 0.2)
+		}
+
+		.demo-btn-on-bg:hover {
+			background: rgba(0, 0, 0, 0.3)
+		}
+
+		.resume-wrapper {
+			border: 1px solid rgba(0, 0, 0, 0.025)
+		}
+
+		.resume-section-heading {
+			position: relative;
+			padding-left: 1rem;
+			font-size: 1.125rem;
+			letter-spacing: 0.15rem;
+			color: #54B689
+		}
+
+		.resume-section-heading:before {
+			content: "";
+			display: inline-block;
+			width: 5px;
+			height: 100%;
+			background: #54B689;
+			position: absolute;
+			left: 0;
+			top: 0
+		}
+
+		.resume-name {
+			font-size: 2.75rem;
+			font-weight: 900;
+			letter-spacing: 0.4rem;
+			color: #54B689
+		}
+
+		.resume-tagline {
+			font-size: 1.25rem;
+			font-weight: 300
+		}
+
+		.resume-contact {
+			border-left: 1px solid rgba(0, 0, 0, 0.08);
+			font-size: 0.75rem
+		}
+
+		a.resume-link {
+			color: #4f4f4f
+		}
+
+		a.resume-link:hover {
+			color: #54B689
+		}
+
+		.resume-profile-image {
+			max-width: 120px
+		}
+
+		.resume-intro {
+			font-size: 0.875rem
+		}
+
+		.resume-main .item-title {
+			font-size: 1rem
+		}
+
+		.resume-main .item-meta {
+			font-size: 0.75rem
+		}
+
+		.resume-main .item-content {
+			font-size: 0.875rem
+		}
+
+		.resume-aside {
+			border-left: 1px solid rgba(0, 0, 0, 0.08)
+		}
+
+		.resume-aside .item {
+			font-size: 0.875rem
+		}
+
+		.resume-aside .item-title {
+			font-size: 1rem
+		}
+
+		.resume-education-list,
+		.resume-awards-list {
+			font-size: 0.875rem
+		}
+
+		.resume-degree-time-org,
+		.resume-degree-time {
+			font-size: 0.75rem
+		}
+
+		.resume-lang-list,
+		.resume-interests-list {
+			font-size: 0.875rem
+		}
+
+		.resume-social-list {
+			font-size: 0.75rem
+		}
+
+		.fa-heart {
+			color: #fb866a
+		}
+
+		@media (max-width: 991.98px) {
+			.resume-aside {
+				border-left: 0
+			}
+		}
+
+		@media (max-width: 767.98px) {
+			.resume-contact {
+				border-left: 0
+			}
+		}		
+	</style>
 
 </head> 
 
