@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+	<title>Email Template</title>
+	
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<link rel="shortcut icon" href="favicon.ico"> 
+	
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+	
+	<!-- FontAwesome JS-->
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+	<!-- Bootstrap JS Requirements -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>	
+	<style>
+		body {
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+			color: #4f4f4f
+		}
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			color: #292929;
+			font-weight: bold
+		}
+
+		a.theme-link {
+			color: #292929;
+			text-decoration: underline;
+			-webkit-text-decoration-color: rgba(41, 41, 41, 0.3);
+			text-decoration-color: rgba(41, 41, 41, 0.3)
+		}
+
+		a.theme-link:hover {
+			color: #54B689;
+			-webkit-text-decoration-color: rgba(84, 182, 137, 0.8);
+			text-decoration-color: rgba(84, 182, 137, 0.8)
+		}
+
+		.btn {
+			font-weight: bold;
+			padding: .375rem 1rem;
+			height: 2.5rem;
+			font-size: 1rem
+		}
+
+		.btn:focus,
+		.btn.focus {
+			box-shadow: none !important
+		}
+
+		.btn-primary {
+			color: #fff
+		}
+
+		.demo-btn-on-bg {
+			background: rgba(0, 0, 0, 0.2)
+		}
+
+		.demo-btn-on-bg:hover {
+			background: rgba(0, 0, 0, 0.3)
+		}
+
+		.resume-wrapper {
+			border: 1px solid rgba(0, 0, 0, 0.025)
+		}
+
+		.resume-section-heading {
+			position: relative;
+			padding-left: 1rem;
+			font-size: 1.125rem;
+			letter-spacing: 0.15rem;
+			color: #54B689
+		}
+
+		.resume-section-heading:before {
+			content: "";
+			display: inline-block;
+			width: 5px;
+			height: 100%;
+			background: #54B689;
+			position: absolute;
+			left: 0;
+			top: 0
+		}
+
+		.resume-name {
+			font-size: 2.75rem;
+			font-weight: 900;
+			letter-spacing: 0.4rem;
+			color: #54B689
+		}
+
+		.resume-tagline {
+			font-size: 1.25rem;
+			font-weight: 300
+		}
+
+		.resume-contact {
+			border-left: 1px solid rgba(0, 0, 0, 0.08);
+			font-size: 0.75rem
+		}
+
+		a.resume-link {
+			color: #4f4f4f
+		}
+
+		a.resume-link:hover {
+			color: #54B689
+		}
+
+		.resume-profile-image {
+			max-width: 120px
+		}
+
+		.resume-intro {
+			font-size: 0.875rem
+		}
+
+		.resume-main .item-title {
+			font-size: 1rem
+		}
+
+		.resume-main .item-meta {
+			font-size: 0.75rem
+		}
+
+		.resume-main .item-content {
+			font-size: 0.875rem
+		}
+
+		.resume-aside {
+			border-left: 1px solid rgba(0, 0, 0, 0.08)
+		}
+
+		.resume-aside .item {
+			font-size: 0.875rem
+		}
+
+		.resume-aside .item-title {
+			font-size: 1rem
+		}
+
+		.resume-education-list,
+		.resume-awards-list {
+			font-size: 0.875rem
+		}
+
+		.resume-degree-time-org,
+		.resume-degree-time {
+			font-size: 0.75rem
+		}
+
+		.resume-lang-list,
+		.resume-interests-list {
+			font-size: 0.875rem
+		}
+
+		.resume-social-list {
+			font-size: 0.75rem
+		}
+
+		.fa-heart {
+			color: #fb866a
+		}
+
+		@media (max-width: 991.98px) {
+			.resume-aside {
+				border-left: 0
+			}
+		}
+
+		@media (max-width: 767.98px) {
+			.resume-contact {
+				border-left: 0
+			}
+		}		
+	</style>
+
+</head> 
+
+<body>	
+	<div class="main-wrapper">
+		<div class="container px-3 px-lg-5">
+			<article class="resume-wrapper mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg">
+				
+				<div class="resume-header">
+					<div class="row align-items-center">
+						<div class="resume-title">
+							<h2 class="resume-name ml-3 text-uppercase" style="font-size:2.2rem;">College of Sciences</h2>
+							<div class="resume-tagline ml-3 mb-3 mb-md-0">Bio-physical Department</div>
+						</div><!--//resume-title-->
+					</div><!--//row-->
+					
+				</div><!--//resume-header-->
+				<hr>
+				<div class="resume-body">
+					<div class="row">
+						<div class="resume-main col-12 col-lg-12 col-xl-12 pr-0 pr-lg-12">
+							<section class="work-section py-3">
+								
+								<div class="item mb-3">
+									<div class="item-heading row align-items-center mb-2">
+										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Dear {name},</h4>
+									</div>
+									<div class="item-content">
+										<p>Please see the attached copy of your grades for <b>{semester}</b>. Should you have any concerns or queries
+regarding this matter, feel free to send an email to <b>cs@psu.palawan.edu.ph</b></p>Thank you!
+									</div>
+								</div><!--//item-->
+								
+							</section><!--//work-section-->
+						</div><!--//resume-main-->
+					</div><!--//row-->
+				</div><!--//resume-body-->
+				<hr>
+				<div class="resume-footer text-center">
+							<ul class="resume-social-list list-inline mx-auto mb-0 d-inline-block text-muted">
+								<li class="list-inline-item mb-lg-0 mr-3"><a class="resume-link" href="https://facebook.com/CollegeOfSciencesPSU"><i class="fab fa-facebook-square fa-2x mr-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">facebook.com/CollegeOfSciencesPSU</span></a></li>
+								<li class="list-inline-item mb-lg-0 mr-3"><a class="resume-link" href="https://linkedin.com/in/CollegeOfSciencesPSU"><i class="fab fa-linkedin fa-2x mr-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">linkedin.com/in/CollegeOfSciencesPSU</span></a></li>
+								<li class="list-inline-item mb-lg-0 mr-lg-3"><a class="resume-link" href="https://twitter.com/CollegeOfSciencesPSU"><i class="fab fa-twitter-square fa-2x mr-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">@CollegeOfSciencesPSU</span></a></li>
+							</ul>
+				</div><!--//resume-footer-->
+			</article>
+					
+		</div><!--//container-->
+				
+		<footer class="footer text-center py-4">
+
+		</footer>
+	</div><!--//main-wrapper-->
+</body>
+</html> 
+
